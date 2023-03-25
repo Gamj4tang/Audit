@@ -1,3 +1,78 @@
-[submodule "Protocol/Dex/Lending_solidity"]
-	path = Protocol/Dex/Lending_solidity
-	url = git@github.com:Gamj4tang/Lending_solidity.git
+[submodule "Protocol/Dex/Gamj4tang"]
+	path = Protocol/Dex/Gamj4tang
+	url = https://github.com/Gamj4tang/DEX_solidity
+[submodule "Protocol/Dex/koor00t/DEX_solidity"]
+	path = Protocol/Dex/koor00t/DEX_solidity
+	url = https://github.com/koor00t/DEX_solidity
+[submodule "Protocol/Dex/jw-dream/DEX_solidity"]
+	path = Protocol/Dex/jw-dream/DEX_solidity
+	url = https://github.com/jw-dream/DEX_solidity
+[submodule "Protocol/Dex/Namryeong-Kim/DEX_Solidity"]
+	path = Protocol/Dex/Namryeong-Kim/DEX_Solidity
+	url = https://github.com/Namryeong-Kim/DEX_Solidity
+[submodule "Protocol/Dex/kimziwu/DEX_solidity"]
+	path = Protocol/Dex/kimziwu/DEX_solidity
+	url = https://github.com/kimziwu/DEX_solidity
+[submodule "Protocol/Dex/2-Sunghoon-Moon/DEX_solidity"]
+	path = Protocol/Dex/2-Sunghoon-Moon/DEX_solidity
+	url = https://github.com/2-Sunghoon-Moon/DEX_solidity
+[submodule "Protocol/Dex/jun4n/DEX_solidity"]
+	path = Protocol/Dex/jun4n/DEX_solidity
+	url = https://github.com/jun4n/DEX_solidity
+[submodule "Protocol/Dex/Sophie00Seo/DEX_solidity"]
+	path = Protocol/Dex/Sophie00Seo/DEX_solidity
+	url = https://github.com/Sophie00Seo/DEX_solidity
+[submodule "Protocol/Dex/seonghwi-lee/Lending-DEX_solidity"]
+	path = Protocol/Dex/seonghwi-lee/Lending-DEX_solidity
+	url = https://github.com/seonghwi-lee/Lending-DEX_solidity
+[submodule "Protocol/Dex/dlanaraa/DEX_solidity"]
+	path = Protocol/Dex/dlanaraa/DEX_solidity
+	url = https://github.com/dlanaraa/DEX_solidity
+[submodule "Protocol/Dex/hyeon777/DEX_Solidity"]
+	path = Protocol/Dex/hyeon777/DEX_Solidity
+	url = https://github.com/hyeon777/DEX_Solidity
+[submodule "Protocol/Dex/siwon-huh/DEX_solidity"]
+	path = Protocol/Dex/siwon-huh/DEX_solidity
+	url = https://github.com/siwon-huh/DEX_solidity
+[submodule "Protocol/Dex/jt-dream/Dex_solidity"]
+	path = Protocol/Dex/jt-dream/Dex_solidity
+	url = https://github.com/jt-dream/Dex_solidity
+[submodule "Protocol/Lending/koor00t/Lending_solidity"]
+	path = Protocol/Lending/koor00t/Lending_solidity
+	url = https://github.com/koor00t/Lending_solidity
+[submodule "Protocol/Lending/jw-dream/Leding-DEX-solidity"]
+	path = Protocol/Lending/jw-dream/Leding-DEX-solidity
+	url = https://github.com/jw-dream/Leding-DEX-solidity
+[submodule "Protocol/Lending/Namryeong-Kim/Lending_solidity"]
+	path = Protocol/Lending/Namryeong-Kim/Lending_solidity
+	url = https://github.com/Namryeong-Kim/Lending_solidity
+[submodule "Protocol/Lending/Gamj4tang/Lending_solidity"]
+	path = Protocol/Lending/Gamj4tang/Lending_solidity
+	url = https://github.com/Gamj4tang/Lending_solidity
+[submodule "Protocol/Lending/kimziwu/Lending_solidity"]
+	path = Protocol/Lending/kimziwu/Lending_solidity
+	url = https://github.com/kimziwu/Lending_solidity
+[submodule "Protocol/Lending/hangi-dreamer/Lending_solidity"]
+	path = Protocol/Lending/hangi-dreamer/Lending_solidity
+	url = https://github.com/hangi-dreamer/Lending_solidity
+[submodule "Protocol/Lending/2-Sunghoon-Moon/Lending_solidity"]
+	path = Protocol/Lending/2-Sunghoon-Moon/Lending_solidity
+	url = https://github.com/2-Sunghoon-Moon/Lending_solidity
+[submodule "Protocol/Lending/jun4n/Lending_solidity"]
+	path = Protocol/Lending/jun4n/Lending_solidity
+	url = https://github.com/jun4n/Lending_solidity
+[submodule "Protocol/Lending/Sophie00Seo/Lending_solidity"]
+	path = Protocol/Lending/Sophie00Seo/Lending_solidity
+	url = https://github.com/Sophie00Seo/Lending_solidity
+[submodule "Protocol/Lending/seonghwi-lee/Lending"]
+	path = Protocol/Lending/seonghwi-lee/Lending
+	url = https://github.com/seonghwi-lee/Lending
+[submodule "Protocol/Lending/dlanaraa/Lending_solidity"]
+	path = Protocol/Lending/dlanaraa/Lending_solidity
+	url = https://github.com/dlanaraa/Lending_solidity
+[submodule "Protocol/Lending/hyeon777/Lending_Solidity"]
+	path = Protocol/Lending/hyeon777/Lending_Solidity
+	url = https://github.com/hyeon777/Lending_Solidity
+[submodule "Protocol/Lending/siwon-huh/Lending_solidity"]
+	path = Protocol/Lending/siwon-huh/Lending_solidity
+	url = https://github.com/siwon-huh/Lending_solidity

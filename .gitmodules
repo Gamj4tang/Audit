@@ -1,0 +1,3 @@
+[submodule "Protocol/Dex/Lending_solidity"]
+	path = Protocol/Dex/Lending_solidity
+	url = git@github.com:Gamj4tang/Lending_solidity.git

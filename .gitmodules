@@ -76,3 +76,6 @@
 [submodule "Protocol/Lending/siwon-huh/Lending_solidity"]
 	path = Protocol/Lending/siwon-huh/Lending_solidity
 	url = https://github.com/siwon-huh/Lending_solidity
+[submodule "Protocol/Dex/hangi-dreamer/Dex_solidity"]
+	path = Protocol/Dex/hangi-dreamer/Dex_solidity
+	url = https://github.com/hangi-dreamer/Dex_solidity

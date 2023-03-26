@@ -1,56 +1,13 @@
-Audits
+# Audits
 
-======
-
--   [DEX Audit Reports](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits)
-    - [ ]    [koor00t-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/koor00t-dex)
-    - [ ]    [jw-dream-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/jw-dream-dex)
-    - [ ]    [Namryeong-Kim-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/Namryeong-Kim-dex)
-    - [ ]    [Gamj4tang-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/Gamj4tang-dex)
-    - [ ]    [kimziwu-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/kimziwu-dex)
-    - [ ]    [hangi-dreamer-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/hangi-dreamer-dex)
-    - [ ]    [2-Sunghoon-Moon-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/2-Sunghoon-Moon-dex)
-    - [ ]    [jun4n-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/jun4n-dex)
-    - [ ]    [Sophie00Seo-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/Sophie00Seo-dex)
-    - [ ]    [seonghwi-lee-Lending-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/seonghwi-lee-Lending-dex)
-    - [ ]    [dlanaraa-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/dlanaraa-dex)
-    - [ ]    [hyeon777-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/hyeon777-dex)
-    - [ ]    [siwon-huh-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/siwon-huh-dex)
-    - [ ]    [jt-dream-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/jt-dream-dex)
-
+- [DEX Audit Reports](https://github.com/Gamj4tang/Audit/tree/main/Reports/dex-audits/Readme.md)
   
-- [Lending Audit Reports](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits)
+- [Lending Audit Reports](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits/Readme.md)
 
-    - [ ]    [koor00t-lending](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits/koor00t-lending)
-
-    - [ ]    [jw-dream-leding-dex](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits/jw-dream-leding-dex)
-
-    - [ ]    [Namryeong-Kim-lending](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits/Namryeong-Kim-lending)
-
-    - [ ]    [Gamj4tang-lending](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits/Gamj4tang-lending)
-
-    - [ ]    [kimziwu-lending](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits/kimziwu-lending)
-
-    - [ ]    [hangi-dreamer-lending](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits/hangi-dreamer-lending)
-
-    - [ ]    [2-Sunghoon-Moon-lending](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits/2-Sunghoon-Moon-lending)
-
-    - [ ]    [jun4n-lending](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits/jun4n-lending)
-
-    - [ ]    [Sophie00Seo-lending](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits/Sophie00Seo-lending)
-
-    - [ ]    [seonghwi-lee-lending](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits/seonghwi-lee-lending)
-
-    - [ ]    [dlanaraa-lending](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits/dlanaraa-lending)
-
-    - [ ]    [hyeon777-lending](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits/hyeon777-lending)
-
-    - [ ]    [siwon-huh-lending](https://github.com/Gamj4tang/Audit/tree/main/Reports/Lending-audits/siwon-huh-lending)
     
 
-Description
+# Description
 
-======
 ## 제목 1
 
 ### 설명
@@ -75,7 +32,7 @@ __심각도: (Critical/High/Medium/Low/Informational)__ <br/>
 어떻게 해결하면 좋을지.
 그리고 가능하다면 유사한 문제를 방지할 방법.
 보통 코드 수정사항이 귀찮을 정도가 (저의 경우 2줄 이상) 되면 직접 고쳐주지는 않습니다.
-
+코드 수정에 대해서 
 
 ## 제목 2
 

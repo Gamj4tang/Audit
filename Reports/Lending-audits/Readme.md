@@ -5,7 +5,7 @@ File: DreamAcademyLending.sol <br/>
 Function: withdraw(address _tokenAddress, uint256 _amount)<br/>
 Line Number: 178-218 <br/>
 
-https://github.com/Gamj4tang/Audit/blob/9f93e626f86beb865f0eec63a68dd4f18a4686f7/src/DreamAcademyLending.sol#L178-L218
+https://github.com/seonghwi-lee/Lending/blob/9f93e626f86beb865f0eec63a68dd4f18a4686f7/src/DreamAcademyLending.sol#L178-L218
 <br/>
 
 ## Description
@@ -113,7 +113,7 @@ File: DreamAcademyLending.sol <br/>
 Function: withdraw(address _tokenAddress, uint256 _amount)<br/>
 Line Number: 117-131 <br/>
 
-https://github.com/Gamj4tang/Audit/blob/f246a69b10002401149a0ffeb71e7f50d24aa0fa/src/DreamAcademyLending.sol#L117-L131
+https://github.com/Namryeong-Kim/Lending_solidity/blob/f246a69b10002401149a0ffeb71e7f50d24aa0fa/src/DreamAcademyLending.sol#L117-L131
 <br/>
 
 ## Description
@@ -221,8 +221,7 @@ File: DreamAcademyLending.sol <br/>
 Function: withdraw(address _tokenAddress, uint256 _amount)<br/>
 Line Number: 110-111 <br/>
 
-https://github.com/Gamj4tang/Audit/blob/f246a69b10002401149a0ffeb71e7f50d24aa0fa/src/DreamAcademyLending.sol#L110-L111 
-https://github.com/Gamj4tang/Audit/blob/f246a69b10002401149a0ffeb71e7f50d24aa0fa/src/DreamAcademyLending.sol#L98-L104
+https://github.com/Namryeong-Kim/Lending_solidity/blob/f246a69b10002401149a0ffeb71e7f50d24aa0fa/src/DreamAcademyLending.sol#L98-L116
 <br/>
 ## Description
 검증 로직이 따로 존재 하지 않기 때문에 상환 금액에 따른 상태 변수 조절 작업 진행, 담보 이더 값에 대해서 트리거가 가능해집니다. 현재 오라클 정보를 가져오기 위한 getPirce 함수는 외부에서 인자를 조절할 수 있기 때문에 처음 셋업된 address(0), USDC 각 주소 정보가 담긴 배열을 참조합니다. 그렇기 때문에 실제 청산을 하거나 계산을 진행할떄 토큰 주소를 변경함으로써 오라클 정보를 임의로 조작이 가능하고 이로 인해 가격 변동이 발생합니다. 
@@ -238,7 +237,7 @@ Severity: Medium <br/>
 File: DreamAcademy.sol <br/>
 Function: repay(address tokenAddress, uint256 amount) <br/>
 Line Number: 172-201 <br/>
-https://github.com/Gamj4tang/Audit/blob/bd5fab0c28da7b02a0f79c7a86c5f87b0b443dbf/src/DreamAcademyLending.sol#L172-L201 <br/>
+https://github.com/2-Sunghoon-Moon/Lending_solidity/blob/bd5fab0c28da7b02a0f79c7a86c5f87b0b443dbf/src/DreamAcademyLending.sol#L172-L201<br/>
 
 ## Description
 사용자가 상환하는 금액(25 USDC)을 기반으로 담보에서 반환할 Ether의 양을 계산합니다. 이 경우, (25 * 10 ** 18) / 100 = 0.25 Ether를 반환해야 합니다. 사용자의 빌린 금액에서 상환한 금액을 뺍니다. (50 USDC - 25 USDC = 25 USDC) 사용자의 담보된 Ether에서 반환할 Ether를 뺍니다. (1 Ether - 0.25 Ether = 0.75 Ether) 사용자가 아직 25 USDC를 더 상환해야 하므로, 남아있는 담보된 Ether(0.75 Ether)는 반환되지 않습니다. 이제 사용자가 남은 25 USDC를 상환하려고 할 경우, 남은 빌린 금액이 0이 되므로 담보된 Ether인 0.75 Ether가 반환됩니다. 이렇게 수정된 repay 함수를 사용하면 사용자가 빌린 금액을 모두 상환하지 않으면 담보를 가져올 수 없게 됩니다.
@@ -280,7 +279,7 @@ File: DreamAcademyLending.sol <br/>
 Function: deposit(address tokenAddress, uint256 amount)<br/>
 Line Number: 146-151 <br/>
 
-https://github.com/Gamj4tang/Audit/blob/fd3baab9a9c6384e6dfb767c23ce2f81cc1de913/src/DreamAcademyLending.sol#L146-L151
+https://github.com/jun4n/Lending_solidity/blob/fd3baab9a9c6384e6dfb767c23ce2f81cc1de913/src/DreamAcademyLending.sol#L146-L151
 
 ## Description
 토큰 주소가 잘못된 경우 외부 다른 토큰 주소를 사용함에 따라 문제가 발생할 수 있지만,특정 공격 연계에 같이 사용될 수 있기 때문에 주의 해야 합니다. 프로토콜 내에서 허용된 토큰 주소 검사 로직이 필요 혹은 화이트리스트 형식의 검증 방식으로 동작해야 합니다.
@@ -300,7 +299,7 @@ File: DreamAcademyLending.sol <br/>
 Function: initializeLendingProtocol(address usdc, uint256 tokenAmount) 
 Line Number: 43-45 <br/>
 
-https://github.com/Gamj4tang/Audit/blob/6665539022814a1f51dccf0ae4d30b264ba74891/src/DreamAcademyLending.sol#L43-L45
+https://github.com/hangi-dreamer/Lending_solidity/blob/6665539022814a1f51dccf0ae4d30b264ba74891/src/DreamAcademyLending.sol#L43-L45l#L43-L45
 
 ## Description
 초기화대출 프로토콜 함수는 토큰 주소로 입금을 받아 대출 프로토콜을 초기화합니다.
@@ -325,7 +324,7 @@ Security: Low
 File: DreamAcademy.sol <br/>
 Function: liquidate(address user, address tokenAddress, uint256 amount) <br/>
 Line Number: 172-201 <br/>
-https://github.com/Gamj4tang/Audit/blob/bd5fab0c28da7b02a0f79c7a86c5f87b0b443dbf/src/DreamAcademyLending.sol#L211-L239 <br/>
+https://github.com/2-Sunghoon-Moon/Lending_solidity/blob/bd5fab0c28da7b02a0f79c7a86c5f87b0b443dbf/src/DreamAcademyLending.sol#L211-L239 <br/>
 
 ## Description
 청산을 진행할시 특정 다른 사람의 담보를 기준으로 청산 요청을 보내지만, 실제 해당 호출시 만약 청산을 진행하는 주체가 본인으로 될 시 내부 적인 문제가 발생할 수 있습니다.
